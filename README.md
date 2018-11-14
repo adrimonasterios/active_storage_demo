@@ -1,5 +1,10 @@
 # Active Storage Demo
 
+### Setup
+
+* `rails db:create db:migrate`
+* `rails s`
+
 ### Check it Out
 
 * visit `/thing_with_rails_forms/new`
