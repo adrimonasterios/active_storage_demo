@@ -60,8 +60,6 @@ class FormForThingWithReactForm extends Component {
       </form>
     )
   }
-
-
 }
 
 export default FormForThingWithReactForm

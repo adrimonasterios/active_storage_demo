@@ -1,24 +1,22 @@
-# README
+# Active Storage Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+### Check it Out
 
-Things you may want to cover:
+* visit `/thing_with_rails_forms/new`
+* Give your thing a name and an image
+* visit `/thing_with_react_forms/new`
+* Give your thing a name and an image
 
-* Ruby version
+### Interesting Code Lives in
 
-* System dependencies
+* The model files (`has_one_attached :image`)
+* The controller files (permit the `:image` param)
+* `/app/views/thing_with_rails_forms/_form.html.erb` (<%= form.file_field %>)
+* `/app/views/thing_with_rails_forms/show.html.erb` (<%= image_tag(@thing_with_rails_form.image) %>)
+* `/app/views/thing_with_react_forms/index.html.erb` (<%= react_component 'ForForThingWithReactForm' %>)
+* `/app/views/thing_with_react_forms/show.html.erb` (<%= react_component 'ShowThingWithReactForm' %>)
+* `/app/javascript/bundles/ThingWithReactForm/*` (all of it)
 
-* Configuration
+### You will still need to configure AWS for production
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* https://medium.com/alturasoluciones/setting-up-rails-5-active-storage-with-amazon-s3-3d158cf021ff
