@@ -1,0 +1,2 @@
+class ThingWithReactForm < ApplicationRecord
+end
