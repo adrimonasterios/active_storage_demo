@@ -13,7 +13,7 @@
 * The controller files (permit the `:image` param)
 * `/app/views/thing_with_rails_forms/_form.html.erb` (<%= form.file_field %>)
 * `/app/views/thing_with_rails_forms/show.html.erb` (<%= image_tag(@thing_with_rails_form.image) %>)
-* `/app/views/thing_with_react_forms/index.html.erb` (<%= react_component 'ForForThingWithReactForm' %>)
+* `/app/views/thing_with_react_forms/index.html.erb` (<%= react_component 'FormForThingWithReactForm' %>)
 * `/app/views/thing_with_react_forms/show.html.erb` (<%= react_component 'ShowThingWithReactForm' %>)
 * `/app/javascript/bundles/ThingWithReactForm/*` (all of it)
 
