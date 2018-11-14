@@ -69,6 +69,6 @@ class ThingWithReactFormsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def thing_with_react_form_params
-      params.require(:thing_with_react_form).permit(:name)
+      params.require(:thing_with_react_form).permit(:name, :image)
     end
 end
